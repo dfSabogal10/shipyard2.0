@@ -104,7 +104,7 @@ const Loader = ({ attributes, toggleLoading, setData, toggleDataLoaded,toggleNet
             <Icon type="upload" />
           </p>
           <h1 style={{ fontSize: '2em' }}>
-            Drag and drop or click here to upload your dataset
+            Click or Drag and drop here to upload your dataset
           </h1>
           <p className="ant-upl  827 root      20   0 1287436  19684  11340 S   0,3  0,2   0:00.36 snapd
 oad-hint">*.csv, *.tsv and *.txt files allowed.</p>
@@ -132,10 +132,10 @@ oad-hint">*.csv, *.tsv and *.txt files allowed.</p>
             <Icon type="upload" />
           </p>
           <h1 style={{ fontSize: '2em' }}>
-            Drag and drop or click here to upload your network dataset
+            Click or Drag and drop here to upload the nodes dataset of your network
           </h1>
           <p className="ant-upl  827 root      20   0 1287436  19684  11340 S   0,3  0,2   0:00.36 snapd
-oad-hint">*.csv, *.tsv, .json and *.txt files allowed.</p>
+oad-hint">*.csv, *.tsv, and *.txt files allowed.</p>
         </div>
       </Dragger>
     </div>

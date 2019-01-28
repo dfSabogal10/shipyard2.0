@@ -167,7 +167,7 @@ class NavioContainer extends Component {
         <Row>
           <Col >
             <div
-              style={{ width: '100%', overflowX: 'scroll', minHeight: '500px' }}
+              style={{ width: '100%', overflowX: 'scroll', minHeight: '600px' }}
               id="vis"
               ref={(target) => this.target = target }
             />

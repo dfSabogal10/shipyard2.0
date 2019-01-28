@@ -91,6 +91,7 @@ const getAttributesType = (keys, atts, data) => {
   const reg = /^(id|key)|(id|key)$|\W+\_*(key|id)+\_*\W+|\W+\_*(key|id)+\_*\W*/gmi;
   // returns 6 uniformly distributed rows
   const sample = getSample(6, data);
+  console.log(sample);
   for (let key = 0; key < keys.length; key += 1) {
     // checks for ID
     if (reg.test(attributes[key].name)) {
