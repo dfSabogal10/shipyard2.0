@@ -20,8 +20,5 @@ echo 'export SHIPYARD_MAX_MEMORY=2048' >> /etc/environment
 ```
 2. Then, in the releases page of this repository, you can download the .exe or .appimage for Windows or linux respectivily. 
 3. Finally, you double click the file, and can start using the aplication!
-```sh
-git clone https://github.com/john-guerra/shipyard.git
-npm install
-npm start
-```# shipyard
+
+## Use
